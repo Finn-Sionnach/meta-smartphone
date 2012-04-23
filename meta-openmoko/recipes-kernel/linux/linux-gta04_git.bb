@@ -28,6 +28,8 @@ do_configure_append() {
 
 CMDLINE_om-gta04 = "console=ttyO2,115200n8 mpurate=800 vram=12M omapfb.rotate_type=0 omapdss.def_disp=lcd rootfstype=ext4,ext3,btrfs,ubifs,jffs2 rootwait twl4030_charger.allow_usb=1 twl4030_charger.charge_backup=1 musb_hdrc.preserve_vbus=1 log_buf_len=8M omapfb.vram=1:1200k,2:1200k omapfb.vrfb=y"
 
+CMDLINE_DEBUG = "debug"
+
 # Mark archs/machines that this kernel supports
 COMPATIBLE_MACHINE = "om-gta04"
 
